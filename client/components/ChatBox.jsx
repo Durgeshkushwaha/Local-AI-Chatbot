@@ -51,13 +51,17 @@ export default function ChatBox({ chatId }) {
                 setStreamingMsg(botMessage);
             }
 
-
             setMessages(prev => [...prev, { role: 'assistant', content: botMessage }]);
             setStreamingMsg('');
         } catch (err) {
-            console.error('Error while sending message:', err);
+            if (err.name === 'AbortError') {
+                console.log('Message fetch was aborted.');
+            } else {
+                console.error('Error while sending message:', err);
+            }
         }
     };
+
 
 
 
