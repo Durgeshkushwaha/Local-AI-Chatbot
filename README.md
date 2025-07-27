@@ -49,6 +49,7 @@ Copy the connection string and paste in MONGO_URI in database setup : mongodb+sr
 
 ---
 
+
 ##  Tech Stack
 
 - **Frontend**: React (Next.js)
@@ -74,3 +75,8 @@ Assumes `Ollama` is running locally with gemma:1b model loaded.
 No user authentication for simplicity.
 
 Focus is on `local LLM` interaction and chat storage only.
+
+<img width="1895" height="859" alt="Screenshot 2025-07-27 191725" src="https://github.com/user-attachments/assets/cdf169dd-0b74-456d-903f-b9db9c81570d" />
+
+<img width="1901" height="868" alt="Screenshot 2025-07-27 191835" src="https://github.com/user-attachments/assets/bcd14cdc-1855-428e-b703-dac68cfe654b" />
+
