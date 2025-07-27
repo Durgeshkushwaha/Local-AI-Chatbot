@@ -35,16 +35,16 @@ Copy the connection string and paste in MONGO_URI in database setup : mongodb+sr
 
 # Run Backend
 
--cd server.
--npm install.
--node server.js or nodemon server.js.
+- cd server.
+- npm install.
+- node server.js or nodemon server.js.
 # Runs on http://localhost:5000
 
 # Run Frontend
 
--cd client.
--npm install.
--npm run dev.
+- cd client.
+- npm install.
+- npm run dev.
 # Runs on http://localhost:3000
 
 ---
